@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+<style>
+
+h1{
+    color:white;
+    text-shadow:5px 5px 5px brown;
+    text-align:center;
+}
+
+body{
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.880NrUEXDIq2yN_oePPgXAHaEK?pid=Api&h=220&P=0);
+    background-size: cover;
+}
+
+div{
+    
+    height:200px;
+    width:400px;
+    position:relative;
+    left:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+button{
+    position:relative;
+    left:70px;
+    padding:6px 60px;
+    border-radius:30px;
+    margin-top:17px;
+    background-color:green;
+    color:white;
+    transition:all 2s linear;
+    cursor: pointer;
+}
+*{
+    color: white;
+}
+
+button:hover{
+    background-color:blue;
+}
+
+input{
+    margin-left:10px;
+    padding:3px 40px;
+}
+#i{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<h1>Good to see you again</h1>
+<h1 id="i">Welcome Back</h1>
+
+<div>
+<table>
+
+<tr>
+<td><label for="e">Your email</label></td>
+</tr>
+
+<tr>
+<td>
+<i class="fa-solid fa-user"></i>
+<input type="email" id="e" placeholder="eg bharath@gmail.com">
+</td>
+</tr>
+
+<tr>
+<td><label for="p">Your password</label></td>
+</tr>
+
+<tr>
+<td>
+<i class="fa-solid fa-lock"></i>
+<input type="password" id="p" placeholder="eg bharath@123">
+</td>
+</tr>
+
+<tr>
+<td>
+<button>Signin</button>
+</td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>
