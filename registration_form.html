@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h1{
+            color: black;
+            text-shadow: 5px 5px 5px brown;
+            text-align: center;
+        }
+       div{
+    width:200px;
+    
+    margin: auto;
+    padding:20px;
+    /* background:linear-gradient(to left,brown,white); */
+    background: linear-gradient(200deg ,brown,pink);
+    color:white;
+    border-radius:10px;
+   
+    transition: background 5s linear 0s;
+    box-shadow: 5px 5px 5px brown;
+    
+}
+div:hover{
+    background: linear-gradient(skyblue,white);
+}
+       input:focus{
+outline:none;
+border:2px solid purple;
+}
+        button{
+    width:150px;
+    height:30px;
+    background-color:rgb(93, 21, 21);
+    color:white;
+    margin: 5px;
+    position: relative;
+    left: 8px;
+    border-radius: 30px;
+    transition: all 5s linear 0s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+}
+    </style>
+</head>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+    <div>
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                            
+                        <label for="n">Enter Your Name:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="n" placeholder="eg bharath" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="e">Enter your Email</label>
+                        <i class="fa-solid fa-envelope"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="email" id="e" placeholder="example@gmailcom"required></td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="p">password</label>
+                        <i class="fa-solid fa-key fa-sm" style="color: rgb(17, 17, 18);"></i>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" id="p" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cp">Confirm password</label>
+                        <i class="fa-solid fa-key fa-sm" style="color: rgb(17, 17, 18);"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" id="cp"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="po">Phone No</label>
+                        <i class="fa-solid fa-phone fa-sm" style="color: rgb(17, 17, 18);"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel"id="po"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
